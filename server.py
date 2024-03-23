@@ -7,8 +7,8 @@ import pickle
 app = Flask(__name__)
 
 # load the models
-load_model_HUN = pickle.load(open("./clfmodel.pkl",'rb'))
-load_model_IRN = pickle.load(open("./clfmodel_IRN.pkl",'rb'))
+load_model_HUN = pickle.load(open("clfmodel.pkl",'rb'))
+load_model_IRN = pickle.load(open("clfmodel_IRN.pkl",'rb'))
 
 # Our features classes in label format
 class_App_names_HUN = ['FoodPanda', 'Wolt', 'Spar', 'Tesco online', 'myLidl']
