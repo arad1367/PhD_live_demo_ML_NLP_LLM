@@ -57,10 +57,10 @@
         <div class="col-xs-12">
           <div class="section-container-spacer text-center">
             {% if predicted_app %}
-              <h3>In IRAN, for a {{gender}}, with education level of {{education}}, age of {{age}}, with online experience of {{exp_online}} year/years, and shopping experience from online Apps {{exp_app}} year/years, It seems that the prefetable Grocery App is : {{predicted_app}}.</h1>
+              <h3>In IRAN, for a {{gender}}, with education level of {{education}}, age of {{age}}, with online experience of {{exp_online}} year/years, and shopping experience from online Apps {{exp_app}} year/years, It seems that the prefetable Grocery App is : <span id="predicted_app" style="font-weight: bold; font-size: larger;">{{predicted_app}}</span>.</h3>
             {% else %}
-              <h1>Make a prediction on Grocery model in IRAN!</h1>
-              <h3>Gender: 1. "Male" 2. "Female"</h3>
+              <h2>Make a prediction on Grocery model in IRAN!</h2>
+              <h4>Gender: 1. "Male" 2. "Female"</h3>
               <h4>Education: 1. "Under Diploma and Diploma" | 2. "Associate" | 3. "Bachelor" | 4. "Master" | 5. "PhD"</h4>
               <h3 style="color:red;">Warning: You can just input numbers. It does not work with letters"</h3>
             {% endif %}
@@ -137,6 +137,17 @@
   </div>
 </footer>
 
+<script>
+  function changeColor() {
+    var colors = ["blue", "green", "orange", "purple", "brown"]; // Add more colors if needed
+    var randomColor = colors[Math.floor(Math.random() * colors.length)];
+    var predictedAppElement = document.getElementById("predicted_app");
+    predictedAppElement.style.color = randomColor;
+    predictedAppElement.style.fontWeight = "bold";
+    predictedAppElement.style.fontSize = "larger";
+  }
+  changeColor(); // Call the function to change color initially
+</script>
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
      navActivePage();
