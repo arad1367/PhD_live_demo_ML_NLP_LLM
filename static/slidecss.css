@@ -49,11 +49,30 @@ ul, li { display: block; }
 #img-inner:nth-of-type(1) {
     /* And... CSS3 image preloading :D */
     background-image:
-        url("https://imgbb.host/images/vggJI.png"),
-        url("https://imgbb.host/images/vg7iS.png"),
-        url("https://imgbb.host/images/vg6vM.png"),
-        url("https://imgbb.host/images/vgbkV.png"),
-        url("https://imgbb.host/images/vg47p.png");
+        url("https://imgbb.host/images/NIVft.png"),
+        url("https://imgbb.host/images/NI5Kk.png"),
+        url("https://imgbb.host/images/NIn7Z.png"),
+        url("https://imgbb.host/images/NIesc.png"),
+        url("https://imgbb.host/images/NISA6.png"),
+        url("https://imgbb.host/images/NIhSp.png"),
+        url("https://imgbb.host/images/NI1lG.png"),
+        url("https://imgbb.host/images/NIKvI.png"),
+        url("https://imgbb.host/images/NIpoH.png"),
+        url("https://imgbb.host/images/NIYt1.png"),
+        url("https://imgbb.host/images/NIj7S.png"),
+        url("https://imgbb.host/images/NI0fE.png"),
+        url("https://imgbb.host/images/NIkYM.png"),
+        url("https://imgbb.host/images/NIoAi.png"),
+        url("https://imgbb.host/images/NIUHV.png"),
+        url("https://imgbb.host/images/NIWTq.png"),
+        url("https://imgbb.host/images/NIl2b.png"),
+        url("https://imgbb.host/images/NIxtu.png"),
+        url("https://imgbb.host/images/NIXlP.png"),
+        url("https://imgbb.host/images/NI4oB.png"),
+        url("https://imgbb.host/images/NI97z.png"),
+        url("https://imgbb.host/images/NIAYK.png"),
+        url("https://imgbb.host/images/NIIIr.png"),
+        url("https://imgbb.host/images/NIzH9.png");
 }
 
 #img-inner:hover ~ label.sb-bignav { opacity: 0.5; }
